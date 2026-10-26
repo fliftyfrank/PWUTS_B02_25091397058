@@ -70,7 +70,21 @@ Data awal sistem terdiri dari 5 alat dan 5 pengajuan contoh.
 
    http://localhost:8000
 
-**Catatan:** Koneksi internet diperlukan untuk memuat jQuery melalui CDN.
+## Menjalankan Aplikasi
+
+Aplikasi **PinjamAlat – Sistem Peminjaman Alat Pendukung Praktikum dan Mata Kuliah** dapat diakses secara online melalui tautan berikut:
+
+**Link Website:**  
+https://fliftyfrank.github.io/PWUTS_B02_25091397058/
+
+### Cara Mengakses
+1. Klik tautan website di atas.
+2. Tunggu hingga halaman website selesai dimuat.
+3. Gunakan menu dan fitur yang tersedia sesuai dengan hak akses pengguna.
+
+### Catatan
+Website ini dipublikasikan menggunakan GitHub Pages. Apabila website tidak dapat dibuka atau beberapa fitur tidak berfungsi, silakan jalankan aplikasi melalui server lokal sesuai petunjuk yang tersedia di repositori GitHub.
+Dan Koneksi internet diperlukan untuk memuat jQuery melalui CDN.
 
 ## Validasi form data alat (item 2.c)
 
