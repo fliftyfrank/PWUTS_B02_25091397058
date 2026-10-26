@@ -1,0 +1,23 @@
+<h2>Data alat</h2>
+<p class="sub">Tambah atau ubah alat. Data divalidasi di browser, lalu dikirim ke server.</p>
+<form id="fAlat" class="card f" novalidate style="max-width:720px">
+ <h3 id="judul">Tambah alat baru</h3>
+ <div class="row">
+  <div><label for="akode">Kode alat</label><input id="akode" placeholder="PP-006" maxlength="6" autocomplete="off"><p class="hint">PP- diikuti 3 angka</p><p class="err" id="e_akode"></p></div>
+  <div><label for="anama">Nama alat</label><input id="anama"><p class="err" id="e_anama"></p></div>
+ </div>
+ <div class="row">
+  <div><label for="akat">Kategori</label><select id="akat"><option value="">Pilih kategori</option><option value="1">Peralatan Pendukung Praktikum</option></select><p class="err" id="e_akat"></p></div>
+  <div><label for="astok">Stok total</label><input id="astok" type="number" min="1" max="200"><p class="err" id="e_astok"></p></div>
+ </div>
+ <div class="row">
+  <div><label for="akon">Kondisi</label><select id="akon"><option value="">Pilih kondisi</option><option>Baik</option><option>Rusak ringan</option><option>Rusak berat</option></select><p class="err" id="e_akon"></p></div>
+  <div><label for="amaks">Maks. durasi pinjam (hari)</label><input id="amaks" type="number" min="1" max="3"><p class="hint">Proyektor 1 hari, alat lain maksimal 3 hari</p><p class="err" id="e_amaks"></p></div>
+ </div>
+ <label for="aik">Ikon alat</label><select id="aik"><option value="">Pilih ikon</option><option value="🔌">🔌 Kabel / listrik</option><option value="📽️">📽️ Proyektor</option><option value="💾">💾 Penyimpanan</option><option value="🌐">🌐 Jaringan</option></select><p class="err" id="e_aik"></p>
+ <p><button class="btn" type="submit" id="simpan">Simpan alat</button> <button class="btn ghost" type="reset">Kosongkan</button></p>
+ <div id="hasil" role="status"></div>
+</form>
+<h2 style="margin-top:30px">Daftar alat</h2>
+<div class="tools"><input id="cariAlat" type="search" placeholder="Cari kode atau nama alat" aria-label="Cari alat"></div>
+<div class="wrapx"><table class="tb"><thead><tr><th></th><th>Kode</th><th>Nama</th><th>Stok tersedia / total</th><th>Kondisi</th><th>Maks. durasi</th><th>Aksi</th></tr></thead><tbody id="tbAlat"></tbody></table></div>

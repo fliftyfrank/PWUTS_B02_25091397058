@@ -1,0 +1,14 @@
+[
+  {
+    "kode": "PP-006",
+    "nama": "Perlengkapan alat tulis",
+    "id_kategori": 1,
+    "stok_total": 1,
+    "kondisi": "Baik",
+    "maks_durasi_hari": 2,
+    "ikon": "🔌",
+    "mode": "tambah",
+    "id": 1,
+    "waktu": "2026-10-26T15:14:39"
+  }
+]
